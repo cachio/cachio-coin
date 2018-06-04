@@ -1,0 +1,4 @@
+Flask==1.0.2
+line-bot-sdk==1.5.0
+zaifapi==1.6.2
+pybitflyer==0.1.9
