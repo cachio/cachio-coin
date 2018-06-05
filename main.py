@@ -49,7 +49,7 @@ def callback():
 
     return 'OK'
 
-# 以下5行削除
+# 以下5行削除 
 # @handler.add(MessageEvent, message=TextMessage)
 # def handle_message(event):
 #     line_bot_api.reply_message(
