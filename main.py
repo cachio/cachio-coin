@@ -10,7 +10,7 @@ from linebot.models import (
     MessageEvent, TextMessage, TextSendMessage,
 )
 
-#追加
+# 追加
 import os
 
 import pybitflyer #bitFlyerのAPI取得
@@ -25,7 +25,7 @@ zaif_ticker = zaif.ticker('btc_jpy')
 
 app = Flask(__name__)
 
-#以下２行追加
+# 以下２行追加
 YOUR_CHANNEL_ACCESS_TOKEN = os.environ["YOUR_CHANNEL_ACCESS_TOKEN"]
 YOUR_CHANNEL_SECRET = os.environ["YOUR_CHANNEL_SECRET"]
 
@@ -49,7 +49,7 @@ def callback():
 
     return 'OK'
 
-
+# 以下5行削除
 # @handler.add(MessageEvent, message=TextMessage)
 # def handle_message(event):
 #     line_bot_api.reply_message(
